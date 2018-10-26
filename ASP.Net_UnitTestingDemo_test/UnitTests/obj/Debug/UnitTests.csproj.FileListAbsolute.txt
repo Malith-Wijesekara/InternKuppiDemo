@@ -1,0 +1,17 @@
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\UnitTests.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\UnitTests.pdb
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\ASP.Net_UnitTestingDemo_test.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\ASP.Net_UnitTestingDemo_test.pdb
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\ASP.Net_UnitTestingDemo_test.dll.config
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\obj\Debug\UnitTests.dll
+D:\Kuppi Demo\ASP.Net_UnitTestingDemo_test\UnitTests\obj\Debug\UnitTests.pdb
