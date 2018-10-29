@@ -10,15 +10,23 @@ namespace ASP.Net_UnitTestingDemo_test
 	{
 		private string color { get; set; }
 		private int modelNumber { get; set; }
+		private bool isQCPassed { get; set; }
 
-			
-		public string Drive(EngineService engine, int KeyID)
+		public Car(string color, int modelNumber)
 		{
-			if (engine.EngineStart(KeyID))
-				return "Ready to drive";
-			else
-				return "Engine failed";
+			this.color = color;
+			this.modelNumber = modelNumber;
 		}
+			
+		public Report inspect(int ID)
+		{
+			var report = new Report();
+			report.carID = ID;
+			report.InspectorName = "Jone Blix";
+			report.IsEnginChecked = true;
+			report.IsBreakTested = true;
 
+			return report;		
+		}
 	}
 }

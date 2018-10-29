@@ -1,7 +1,6 @@
 ﻿using System;
 using ASP.Net_UnitTestingDemo_test;
 using ASP.Net_UnitTestingDemo_test.Services;
-using ASP.Net_UnitTestingDemo_test.Tests.Mocks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests
@@ -9,14 +8,16 @@ namespace UnitTests
 	[TestClass]
 	public class TestCar
 	{
-		private static EngineService mockEngineService = new EngineService();
-		private static Car car = new Car();
+		
+		private static Car car = new Car("red",121);
 		[TestMethod]
 		public void Drive_shouldReturnString()
 		{
-			var returnObject = car.Drive(mockEngineService, 123);
-			Assert.IsInstanceOfType(returnObject, typeof(string));
+			
+			var returnObject = car.inspect(123);
+			Assert.IsInstanceOfType(returnObject, typeof(Report));
 			Assert.IsNotNull(returnObject);
+			Assert.AreEqual(returnObject.InspectorName, "Jone Blix");
 			//Assert.IsNull(returnObject);
 		}
 	}
