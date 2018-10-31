@@ -9,7 +9,9 @@ namespace ASP.Net_UnitTestingDemo_test.Services
 	{
 		public string InspectorName { get; set; }
 		public int carID { get; set; }
+		
 		public bool IsEnginChecked { get; set; }
 		public bool IsBreakTested { get; set; }
+		
 	}
 }

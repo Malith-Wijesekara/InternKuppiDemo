@@ -10,7 +10,7 @@ namespace ASP.Net_UnitTestingDemo_test
 	{
 		private string color { get; set; }
 		private int modelNumber { get; set; }
-		private bool isQCPassed { get; set; }
+		
 
 		public Car(string color, int modelNumber)
 		{
@@ -25,6 +25,7 @@ namespace ASP.Net_UnitTestingDemo_test
 			report.InspectorName = "Jone Blix";
 			report.IsEnginChecked = true;
 			report.IsBreakTested = true;
+		
 
 			return report;		
 		}

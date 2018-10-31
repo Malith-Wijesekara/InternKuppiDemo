@@ -10,15 +10,20 @@ namespace UnitTests
 	{
 		
 		private static Car car = new Car("red",121);
+
 		[TestMethod]
 		public void Drive_shouldReturnString()
 		{
-			
-			var returnObject = car.inspect(123);
+			var ID = 123;
+			var returnObject = car.inspect(ID);
 			Assert.IsInstanceOfType(returnObject, typeof(Report));
 			Assert.IsNotNull(returnObject);
-			Assert.AreEqual(returnObject.InspectorName, "Jone Blix");
 			//Assert.IsNull(returnObject);
+			Assert.AreEqual(returnObject.InspectorName, "Jone Blix");
+			Assert.AreEqual(returnObject.carID, ID);
+			Assert.IsTrue(returnObject.IsBreakTested);
+			
+			
 		}
 	}
 }
