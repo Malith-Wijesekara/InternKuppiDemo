@@ -7,17 +7,19 @@ using Unit_test.Helpers;
 
 namespace Unit_test.Controllers
 {
-    public class CarFactoryController : Controller
+    public class CarFactoryController
     {
 		private string color { get; set; }
 		private int modelNumber { get; set; }
-		// GET: CarFactory
-		public ActionResult Index()
-        {
-            return View();
-        }
 
-		public Report inspect(int ID)
+
+		public CarFactoryController(string color, int modelNumber)
+		{
+			this.color = color;
+			this.modelNumber = modelNumber;
+		}
+
+		public Report GetReport(int ID)
 		{
 			var report = new Report();
 			report.carID = ID;
@@ -25,8 +27,8 @@ namespace Unit_test.Controllers
 			report.IsEnginChecked = true;
 			report.IsBreakTested = true;
 
+
 			return report;
 		}
-
 	}
 }

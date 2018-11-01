@@ -9,7 +9,6 @@ namespace Unit_test.Helpers
 	{
 		public string InspectorName { get; set; }
 		public int carID { get; set; }
-
 		public bool IsEnginChecked { get; set; }
 		public bool IsBreakTested { get; set; }
 	}
