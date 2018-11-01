@@ -16,3 +16,14 @@ add>> class >>car
 add>> new project >> test >> unit test project >> Unit tests
 
 class name >> TestCar
+
+
+try
+			{
+				var conditionResult = controller.Update(condition.MaintenanceConditionId.Value, condition);
+				Assert.Fail();
+			}
+			catch (Exception ex)
+			{
+				Assert.AreEqual(ex.Message, "Error occurred updating maintenance condition");
+			}

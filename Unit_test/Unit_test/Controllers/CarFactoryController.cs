@@ -30,5 +30,9 @@ namespace Unit_test.Controllers
 
 			return report;
 		}
+		public void FunctionWithException()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

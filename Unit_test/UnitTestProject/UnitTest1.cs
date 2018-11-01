@@ -19,7 +19,7 @@ namespace UnitTestProject
 		}
 
 		[TestMethod]
-		public void TestMethod1()
+		public void GetReport_ShouldReturnReport()
 		{
 			
 			var ID = 123;
@@ -31,6 +31,14 @@ namespace UnitTestProject
 			Assert.AreEqual(returnObject.carID, ID);
 			Assert.IsTrue(returnObject.IsBreakTested);
 			Assert.IsFalse(returnObject.IsEnginChecked);
+			
 		}
+		[TestMethod]
+		public void FunctionWithException_SHouldThrowNotImplimentedException()
+		{
+			
+			carController.FunctionWithException();
+		}
+
 	}
 }
