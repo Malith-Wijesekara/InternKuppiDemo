@@ -24,7 +24,7 @@ namespace Unit_test.Controllers
 			var report = new Report();
 			report.carID = ID;
 			report.InspectorName = "Jone Blix";
-			report.IsEnginChecked = true;
+			report.IsEnginChecked = false;
 			report.IsBreakTested = true;
 
 

@@ -30,6 +30,7 @@ namespace UnitTestProject
 			Assert.AreEqual(returnObject.InspectorName, "Jone Blix");
 			Assert.AreEqual(returnObject.carID, ID);
 			Assert.IsTrue(returnObject.IsBreakTested);
+			Assert.IsFalse(returnObject.IsEnginChecked);
 		}
 	}
 }
